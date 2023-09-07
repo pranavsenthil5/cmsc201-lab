@@ -24,6 +24,8 @@ body {
   font-variation-settings: 'wght' 450;
   font-variant: common-ligatures contextual;
   letter-spacing: -0.02em;
+  background: #ffffff;
+  font-weight: bold;
 }
 b,
 strong,
@@ -63,3 +65,4 @@ img.next-image {
 .nav-line .nav-link {
   color: #69778c;
 }
+

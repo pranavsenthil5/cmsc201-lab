@@ -2,10 +2,16 @@ const YEAR = new Date().getFullYear()
 
 export default {
   footer: (
-    <footer>
+    <footer style={{
+      position: 'fixed',
+      left: 0,
+      bottom: 0,
+      width: '100%',
+      textAlign: 'center',
+      backgroundColor: 'white'
+    }}>
       <small>
-        <time>{YEAR}</time> © Your Name.
-        <a href="/feed.xml">RSS</a>
+        <time>{YEAR}</time> © Pranav Vedasendur Senthilvel.
       </small>
       <style jsx>{`
         footer {
@@ -16,5 +22,5 @@ export default {
         }
       `}</style>
     </footer>
-  ),
+  )
 }
